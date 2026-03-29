@@ -1,0 +1,16 @@
+datasets:
+  - kather100k
+  - spider-colorectal
+  - spider-breast
+  - spider-skin
+  - spider-thorax
+
+encoders:
+  - uni
+  - uni2
+  - hibou
+  - dinov2
+
+seeds:
+  base_seed: 0
+  num_seeds: 5
