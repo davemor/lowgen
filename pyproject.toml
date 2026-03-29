@@ -1,0 +1,17 @@
+[project]
+name = "lowgen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "David Morrison", email = "dm236@st-andrews.ac.uk" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+lowgen = "lowgen:main"
+
+[build-system]
+requires = ["uv_build>=0.9.24,<0.10.0"]
+build-backend = "uv_build"
